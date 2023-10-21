@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Form+table</title>
+    </head>
+    <body>
+        <table border="2" cellspacing="0" cellpadding="5" bgcolor="white">
+            <tr>
+                <th colspan="3" align="center" bgcolor="yellow">Input Data Mahasiswa</th>
+                
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td><input type="text" name="password"></td>
+            </tr>
+            <tr>
+                <td>Fullname</td>
+                <td>:</td>
+                <td><input type="text" name="fullname"></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td>:</td>
+                <td> <input type="text" name="E-mail"></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td><select>
+                    <option nama="agama" selected>---Pilih Agama---</option>></option>
+               <option value="islam">Islam</option>
+               <option value="Kristen">Kristen</option>
+               <option value="hindu">Hindu</option>
+               <option value="budha">Budha</option>
+                </select></td>
+            </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="jeniskel" value="pria" /> pria
+                        <input type="radio" name="jeniskel" value="wanita" /> wanita
+                    </td>
+                    </tr>          
+
+                     <tr>
+                        <td>Hobi</td>
+                        <td>:</td>
+                        <td>
+                            <input type="checkbox" name"hobi" value="Music" /> Music
+                            <input type="checkbox" name"hobi" value="Gaming"/> Gaming
+                            <input type="checkbox" name"hobi" value="Olahraga"/> Olahraga
+                            <input type="checkbox" name"hobi" value="Lainnya"/> Lainnya
+                        </td>
+                     </tr>   
+                     <tr>
+                        <td>Profil singkat</td>
+                        <td>:</td>
+                        <td>
+                         <textarea rows="3" cols="50" name="komentar"></textarea>
+                        </td>
+                     </tr>
+                     <tr align="right">
+                        <td colspan="3"><input type="submit" name="submit" value="Input"</td>
+                     </tr>
+    </body>
+</html>
