@@ -1,0 +1,76 @@
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Style */
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+
+.header{
+    padding: 20px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+
+}
+
+.header a:hover {
+         background-color: lightskyblue;
+         color: white;
+
+}
+
+.hero {
+    height: 250px;
+    background-image:
+
+}
+
+
+
+
+
+
+
