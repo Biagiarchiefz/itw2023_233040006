@@ -1,0 +1,280 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ body {
+        line-height: 1;
+    }
+
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+
+
+/* Style */
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img/bgbody2.png.png);
+    
+   
+}
+
+ .container { 
+    width: 800px;
+    margin: auto;
+    background-color: white;
+   
+ }
+
+ .header {
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 5px;
+   
+ }
+
+ .header .judul {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgb(56, 55, 55);
+ }
+
+ .header ul li {
+    display: inline-block;
+    margin-top: 20px;
+   
+ }
+
+ .header a {
+    text-decoration: none;
+    color: #eaeaea;
+    padding: 3px;
+    
+
+ }
+
+
+ .header a:hover {
+    background-color: rgb(221, 221, 12);
+    color: white;
+ }
+
+ .hero {
+    height: 250px;
+    background-image: url(img/haro.jpg3.jpg);
+    background-size: cover;
+    background-position: 0 -180px;
+    border-bottom: 5px solid black;
+    
+
+ }
+
+ 
+.content {
+   padding: 20px
+
+}
+
+.content h2 {
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.content .penulis {
+   margin-top: -5px;
+   font-size: 11px;
+
+  
+}
+.content .hero1 {
+   background-position: 0 -10px;
+   height: 390px;
+   background-image: url(img/ML.jpg)
+   
+}
+
+.content .p1 {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.content .p2 {
+   font-size: 17px;
+
+}
+
+.content .p3 {
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+ 
+.content .hero2 {
+   height: 310px;
+   background-image: url(img/evos.m1.jpg);
+   background-size: cover;
+}
+
+.content .p4 {
+   margin-top: 15px;
+   font-size: 17px;
+}
+
+.content .p5 {
+   font-size: 17px;
+}
+
+.content .p6 {
+   margin-top: 10px;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.content .hero3 {
+   height: 350px;
+   background-image: url(img/bren.jpg);
+   background-size: cover;
+   background-position: 0 -195px;
+}
+
+.content .p7 {
+   margin-top: 15px;
+   font-size: 17px;
+
+}
+
+.content .p8 {
+   font-size: 17px;
+
+}
+
+.content .p9 {
+
+   margin-top: 10px;
+   font-weight: bold;
+   font-size: 20px
+ }
+
+ .content .hero4 {
+   height: 350px;
+   background-image: url(img/blck.jpg);
+   background-size: cover;
+   background-position: 0 -30px;
+}
+
+.content .p10 {
+   margin-top: 15px;
+   font-size: 17px;
+
+}
+
+.content .p9 {
+   font-size: 17px;
+
+}
+
+.content .p12 {
+   margin-top: 10px;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.content .hero5 {
+   height: 300px;
+   background-image: url(img/echo.jpg);
+   background-size: cover;
+  
+}
+
+
+.content .p13 {
+   margin-top: 15px;
+   font-size: 17px;
+
+}
+
+.content .p14 {
+   font-size: 17px;
+
+}
+
+.content .p15 {
+   margin-top: 20px;
+}
+ 
+
+.footer {
+   background-color: black;
+   padding: 10px;
+   border-radius: 15px;
+   
+   
+}
+
+.footer .copy {
+   color: white;
+   text-align: center;
+   font-size: 15px;
+
+}
+
+.content a {
+   text-decoration: none;
+}
