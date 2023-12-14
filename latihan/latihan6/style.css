@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Roboto Mono', monospace;
+    
+
+}
+
+/* navbar */
+nav {
+    display: flex;
+    background-color: rgb(40, 82, 82);
+    justify-content: space-around;
+    padding: 20px 0;
+    color: beige;
+
+}
+
+nav .logo {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+   
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: beige;
+    /* font-size: .8em; */
+}
+
+nav ul li a:hover {
+    color: rgb(109, 140, 173);
+}
+
+
+/* Hamburger menu */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+   
+}
+
+.menu-toggle input {
+    position: absolute;
+    width: 30px;
+    height: 26px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color:beige;
+    border-radius: 3px;
+    transition: all .8s;
+}
+
+
+/* hamburger menur animation */
+.menu-toggle span:nth-child(2) {
+   transform-origin: 0 0;
+}
+.menu-toggle span:nth-child(4) {
+   transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+    background-color: beige;
+    transform: rotate(45deg) translate(-1px, -1px); 
+}
+.menu-toggle input:checked ~ span:nth-child(4) {
+    background-color: beige;
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+.menu-toggle input:checked ~ span:nth-child(3) {
+    opacity: 0;
+    transform: scale(0);
+}
+
+
+/* responsive */
+
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+   nav ul {
+    width: 50%;
+   }
+}
+
+/* ukuran handphone */
+@media screen and (max-width: 576px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    nav ul {
+     position: absolute;
+     right: 0;
+     flex-direction: column;
+     background-color:  rgb(40, 82, 82);
+     top: 0;
+     right: 0;
+     height: 100vh;
+     align-items: center;
+     justify-content: space-evenly;
+     z-index: -1;
+     width: 70%;
+     transform: translateX(100%);
+     transition: all 1s;
+    }
+ }
+
+ nav ul.slide {
+    transform: translateX(0);
+ }

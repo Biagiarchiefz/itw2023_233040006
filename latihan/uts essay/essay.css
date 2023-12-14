@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+.header{ 
+    background-color: rgb(55, 54, 58) ;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+.footer{ 
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.container{
+    margin: 0;
+    width: 600px;
+    border-width: 30px;
+    border-color: black;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    align-items: center;
+} 
+
+.main{
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(183, 179, 179);
+}
