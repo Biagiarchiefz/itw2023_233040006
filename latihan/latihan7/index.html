@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GUCCI</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header" id="home">
+        <div class="hero"></div>
+        <div class="features feature-1">
+          <h4 class="price">$100.00</h4>
+          <p class="item">Shoes</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">$50.00</h4>
+          <p class="item">Glasses</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="brand">
+          <h1>GUCCI</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#product">Produtc</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services" id="about">
+        <div class="service">
+          <div class="icon">1</div>
+          <h3>Product</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+            quidem? Fuga consectetur ab possimus? Facere aut sequi, quidem
+            recusandae magni perspiciatis animi cum nisi ullam dolores!
+            Perspiciatis necessitatibus iusto nemo.
+          </p>
+        </div>
+
+        <div class="service">
+          <div class="icon">2</div>
+          <h3>Product</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+            quidem? Fuga consectetur ab possimus? Facere aut sequi, quidem
+            recusandae magni perspiciatis animi cum nisi ullam dolores!
+            Perspiciatis necessitatibus iusto nemo.
+          </p>
+        </div>
+
+        <div class="service">
+          <div class="icon">3</div>
+          <h3>Product</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+            quidem? Fuga consectetur ab possimus? Facere aut sequi, quidem
+            recusandae magni perspiciatis animi cum nisi ullam dolores!
+            Perspiciatis necessitatibus iusto nemo.
+          </p>
+        </div>
+
+        <div class="service">
+          <div class="icon">4</div>
+          <h3>Product</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+            quidem? Fuga consectetur ab possimus? Facere aut sequi, quidem
+            recusandae magni perspiciatis animi cum nisi ullam dolores!
+            Perspiciatis necessitatibus iusto nemo.
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <h2>GUCCI GALLERY </h2>
+
+        <img src="img/victor-furtuna-fwMckadwgDQ-unsplash.jpg" alt="" />
+        <img src="img/jonathan-j-castellon-5ABk8BTqdLE-unsplash.jpg" alt="" />
+        <img src="img/karly-jones-fJOdzIVSgpM-unsplash.jpg" alt="" />
+        <img src="img/karly-jones-ZxhykauthXg-unsplash.jpg" alt="" />
+        <img src="img/max-anderson-0fv6PAfj4p4-unsplash.jpg" alt="" />
+        <img src="img/jonathan-j-castellon-5ABk8BTqdLE-unsplash.jpg" alt="" />
+        <img src="img/victor-furtuna-fwMckadwgDQ-unsplash.jpg" alt="">
+        <img src="img/karly-jones-ZxhykauthXg-unsplash.jpg" alt="">
+        <img src="img/max-anderson-0fv6PAfj4p4-unsplash.jpg" alt="">
+        <img src="img/karly-jones-fJOdzIVSgpM-unsplash.jpg" alt="">
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
